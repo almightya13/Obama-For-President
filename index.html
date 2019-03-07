@@ -1,0 +1,95 @@
+<!DOCTYPE html> <html><head>
+        <title>Obama For President</title>
+    <style>body{
+    font-family: 'Unlock', cursive;
+}
+
+h1{
+    font-size: 50px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+#donate h2 {text-shadow: 2px 2px #FFFFFF;}
+
+#eagles h2 {text-shadow: 2px 2px #ff0000;}
+p {
+    font-size: 20px;
+}
+    
+#header, #donate, #eagles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px 0;
+}
+
+#header {
+    color: blue;
+    background-color: white;
+}
+
+#donate {
+    background: red;
+}
+#eagles {
+    background: red;
+    color: black;
+}
+
+#pics img{
+    width: 20%;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
+}
+#pics {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0;
+}
+
+#pics img:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+#donate button {
+    width: 300px;   
+    height: 50px;
+    font-size: 20px;
+    background: blue;
+    color: white;
+    border-radius: 5px;
+    border: solid white 3px;
+}
+
+#donate button:hover {
+    background: yellow;
+    color: black;
+}</style></head>
+    <body>
+        <div id="header">
+        <h1>Barack Obama</h1>
+        <p> Give me another 4 years</p>
+    </div>
+    <div id="donate">
+        <h2>Donate Now</h2>
+        <p>I won't waste your time or your money.</p>
+        <button>Donate</button>
+    </div>
+    <div id="pics">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyRkdov7yM3SiGCEz9aYy3aZ46WY2fCO4JW8_Gnrk1shCAHL7b3Q">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdxPO3HBreSa6_88wq1qBr-R1UrSB-vkKUA0pcaF-PeRs6Ao3Gdw">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_nG1hvWVPpgzmOvqDhOZhTjZ3WxfXF1vEK7auuyvpT0JHSz90zQ">
+    </div>
+    <div id="eagles">
+        <h2>Capitalistism at it's best</h2>
+        <p>If elected, I promise to you a free ticket to a full day at any amusement park of your choice!</p>
+    </div>
+    
+
+</body></html>
